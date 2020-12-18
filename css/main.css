@@ -1,0 +1,176 @@
+body {
+    font-size: 1vw;
+}
+
+img {
+    cursor: pointer;
+}
+
+.game-body {
+    height: 80vh;
+    width: 100%;
+}
+
+.headline h3 {
+    cursor: default;
+    font-size: 1.2rem;
+    padding-top: 10px;
+}
+
+.nav-icons img {
+    max-width: 2rem;
+}
+
+.top {
+    background-color: cornflowerblue;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom {
+    background-color: skyblue;
+    height: 20%;
+}
+
+.inner-body {
+    position: relative;
+    border: 5px solid orange;
+    height: 110%;
+    top: -5%;
+    width: 95%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-top: 40px;
+}
+
+.inner-body img {
+    position: absolute;
+    bottom: 0%;
+    max-height: 60%;
+    width: 100%;
+    cursor: default;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+}
+
+.btns span {
+    font-size: 1.1rem;
+    font-weight: bolder;
+    margin: 7px 7px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 7px 15px;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.first {
+    position: absolute;
+    bottom: 10.2vh;
+    font-weight: bolder;
+    left: 1vw;
+    font-size: 1.7rem;
+    width: 28%;
+    height: 10%;
+}
+
+.second {
+    position: absolute;
+    bottom: 2.7vh;
+    font-weight: bolder;
+    left: 1vw;
+    font-size: 1.7rem;
+    width: 28%;
+    height: 10%;
+}
+
+.third {
+    position: absolute;
+    bottom: 2.7vh;
+    font-weight: bolder;
+    left: 21vw;
+    width: 28%;
+    height: 10%;
+    font-size: 1.7rem;
+}
+
+.fourth {
+    position: absolute;
+    bottom: 2.7vh;
+    font-weight: bolder;
+    right: 0.4vw;
+    width: 28%;
+    height: 10%;
+    font-size: 1.7rem;
+}
+
+.fifth {
+    position: absolute;
+    bottom: 10.2vh;
+    font-weight: bolder;
+    right: 0.4vw;
+    width: 28%;
+    height: 10%;
+    font-size: 1.7rem;
+}
+
+.bottom img {
+    max-width: 10%;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.box {
+    width: 80%;
+    border: 5px solid orange;
+    height: 80%;
+    position: relative;
+    background-color: #ffffff;
+    overflow: scroll;
+}
+
+.box .close {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    max-width: 50px;
+}
+
+.answerInput {
+    cursor: pointer;
+    opacity: 0;
+}
+
+.answerInput img {
+    width: 16%;
+    position: absolute;
+    right: 0;
+    display: inline;
+
+}
+
+@keyframes lighter {
+    from {
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
